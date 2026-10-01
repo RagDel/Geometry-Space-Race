@@ -1,0 +1,10 @@
+# Build products from the portable C# sample.
+**/bin/
+**/obj/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+.DS_Store
+Thumbs.db

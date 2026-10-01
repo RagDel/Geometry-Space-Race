@@ -1,0 +1,4 @@
+# Preserve source extraction hashes across Git clients.
+* text=auto eol=lf
+*.cs -text whitespace=cr-at-eol
+*.png binary

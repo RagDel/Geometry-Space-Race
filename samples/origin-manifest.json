@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "extractedOn": "2026-10-01",
+  "upstreamCommit": "d121768e52a7d6986dfa87ebe1196c1338c582f4",
+  "scope": "Five complete C# source files copied without edits from the local Unity project. The portable harness and README are showcase additions, not upstream game files.",
+  "files": [
+    {
+      "sample": "portable/src/SkySelection.cs",
+      "origin": "UnityProject/Geometry space race/Assets/Game/Scripts/Presentation/SkySelection.cs",
+      "bytes": 2383,
+      "sha256": "a38094e427343c1d7f5bf5183ec23cfcf0d776c6036de22bec050bfe4f0a92c5"
+    },
+    {
+      "sample": "portable/src/PickupState.cs",
+      "origin": "UnityProject/Geometry space race/Assets/Game/Scripts/Domain/PickupState.cs",
+      "bytes": 2136,
+      "sha256": "2240b31d2646d34e0c657ff36643ee500f23b5bee1090054438f8dfc938f2ddd"
+    },
+    {
+      "sample": "portable/src/PowerupRules.cs",
+      "origin": "UnityProject/Geometry space race/Assets/Game/Scripts/Domain/PowerupRules.cs",
+      "bytes": 687,
+      "sha256": "8f7529a9e61f2b65a148df8aba8b1c3c91dde6efd0878b471a88cb38c1d271f8"
+    },
+    {
+      "sample": "unity/CylinderCourse.cs",
+      "origin": "UnityProject/Geometry space race/Assets/Game/Scripts/Domain/CylinderCourse.cs",
+      "bytes": 9079,
+      "sha256": "486c05aed0adf4711e6c7a12a71af0d36fee96f6eefacdcbd858c42c279749d1"
+    },
+    {
+      "sample": "unity/DashController.cs",
+      "origin": "UnityProject/Geometry space race/Assets/Game/Scripts/Domain/DashController.cs",
+      "bytes": 6267,
+      "sha256": "3a9d276d2982e157dcf1d9ec19bad81a26a0e219094aaad7d11c409721d66f66"
+    }
+  ]
+}

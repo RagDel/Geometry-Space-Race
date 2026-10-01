@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-01",
+  "captures": [
+    {
+      "file": "flight-0.5.1.png",
+      "privateOriginalPath": "UnityProject/Geometry space race/Verification/M5/patch-051/chase.png",
+      "gameVersion": "0.5.1",
+      "context": "Staged in-engine flight presentation",
+      "sha256": "af62ad66e7d319e61593dbf182c35171abf700ec71a93a7571ba767862e3d869",
+      "extractionChanges": "Filename only; PNG bytes unchanged"
+    },
+    {
+      "file": "title-0.5.1.png",
+      "privateOriginalPath": "UnityProject/Geometry space race/Verification/M5/patch-051/menu.png",
+      "gameVersion": "0.5.1",
+      "context": "In-engine title screen",
+      "sha256": "0c442835cfe0538640cf43066deb7e6a2bbed96048f349089ae3bf096beba298",
+      "extractionChanges": "Filename only; PNG bytes unchanged"
+    },
+    {
+      "file": "touch-layout-0.5.png",
+      "privateOriginalPath": "UnityProject/Geometry space race/Verification/M5/patch-05/ui05-b-phone-title.png",
+      "gameVersion": "0.5",
+      "context": "Unity simulated phone layout, not physical Android execution",
+      "sha256": "2030c3593d1f9155fd8214aae256fb4601651b963927cdd2968362fb6543924d",
+      "extractionChanges": "Filename only; PNG bytes unchanged"
+    },
+    {
+      "file": "late-game-0.5.png",
+      "privateOriginalPath": "UnityProject/Geometry space race/Verification/M5/patch-05/camera05-d-desktop-chase-maximum-left.png",
+      "gameVersion": "0.5",
+      "context": "Staged level 105, maximum-left steering camera verification",
+      "sha256": "ee2093eb07846ba47b2f5f90fcc45ef343286d5962de31798003bc3052848c3f",
+      "extractionChanges": "Filename only; PNG bytes unchanged"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Verification date: 2026-10-01
+Runtime/toolchain: .NET SDK 8.0.318, net8.0, Release
+Scope: portable sample harness only; no Unity execution
+Exit code: 0
+
+PASS Sky bags are permutations without consecutive repeats
+PASS Sky lookups reproduce across seeds and query orders
+PASS Sky selection stays fixed through each ten-checkpoint section
+PASS Starting skies cover all ten choices across 100 seeds
+PASS Appearance cadence can be configured independently
+PASS Sky input bounds reject invalid requests
+PASS Pickup reset clears every temporary effect
+PASS Pickup durations use the supplied active-play clock
+PASS Repeat pickup collection refreshes its own duration
+PASS Laser charge resolves once at or beyond expiry
+PASS Next pickup transition follows the earliest pending expiry
+PASS Pickup clocks reject backwards and non-finite time
+12/12 checks passed; 25289 assertions evaluated.

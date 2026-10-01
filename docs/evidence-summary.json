@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-01",
+  "privateSourceCommit": "d121768e52a7d6986dfa87ebe1196c1338c582f4",
+  "scope": "Selected historical private-project evidence fields; no new full Unity run.",
+  "baseline05": {
+    "editMode": {
+      "total": 317,
+      "passed": 317,
+      "failed": 0,
+      "skipped": 0,
+      "durationSeconds": 20.161064,
+      "resultState": "Passed"
+    },
+    "playMode": {
+      "total": 282,
+      "passed": 282,
+      "failed": 0,
+      "skipped": 0,
+      "durationSeconds": 48.0060867,
+      "resultState": "Passed"
+    },
+    "menuLayoutProfiles": 120.0,
+    "menuCaptures": 16
+  },
+  "patch051": {
+    "editMode": {
+      "total": 9,
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0,
+      "durationSeconds": 0.7608096,
+      "resultState": "Passed"
+    },
+    "initialSelectedPlayMode": {
+      "completed": 14,
+      "failed": 1,
+      "note": "Old Chase-distance assertion corrected; two Distant cases rechecked.",
+      "passed": 13
+    },
+    "cameraRecheck": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "durationSeconds": 0.1319786,
+      "resultState": "Passed"
+    },
+    "fullRegressionRepeated": false,
+    "windowsBuild": {
+      "errors": 0,
+      "warnings": 3,
+      "result": "succeeded"
+    },
+    "windowsSmoke": {
+      "errors": 0,
+      "initialObjects": 760,
+      "finalObjects": 760,
+      "workloadPreserved": true,
+      "requestedSeconds": 10.0,
+      "measuredSeconds": 10.000571499999998,
+      "scope": "Startup/functional only; no rendered performance acceptance"
+    },
+    "androidPackage": {
+      "result": "passed",
+      "version": "0.5.1",
+      "versionCode": 10,
+      "sha256": "13957ea1b3a2b909c9521c465c36e47849d887e1e93978e2546f4a791e0e65ba",
+      "sizeBytes": 112409287,
+      "arm64": true,
+      "il2cpp": true,
+      "minSdk": 26,
+      "targetSdk": 36,
+      "signatureV2": true,
+      "zipalign16KiB": true,
+      "licenseNotices": 12,
+      "deviceTested": false
+    }
+  },
+  "pending": [
+    "Physical Android/controller acceptance",
+    "Subjective listening",
+    "Controlled visible rendered performance/endurance"
+  ],
+  "evidenceReferences": [
+    {
+      "originalPath": "UnityProject/Geometry space race/Verification/M5/patch-05/full05-d-editmode-result.json",
+      "sha256": "4a0d9824df4b51c36f2754984ee0ce976a3b26b77eba856efdeb9f15cd7c05ed"
+    },
+    {
+      "originalPath": "UnityProject/Geometry space race/Verification/M5/patch-05/full05-e-playmode-result.json",
+      "sha256": "f983aad5641527f4fbf8dae03fd2deeea5adb1769cf3b0d64e58976bd2431e05"
+    },
+    {
+      "originalPath": "UnityProject/Geometry space race/Verification/M5/patch-05/ui05-b-captures.json",
+      "sha256": "ff2d16287f35ea9d3d4dae6504766ce667796dc17c70e591eaaacab418d1ddb2"
+    },
+    {
+      "originalPath": "UnityProject/Geometry space race/Verification/M5/patch-051/README.md",
+      "sha256": "75f82472ac6836a7e0f61fb9f0d207085f7e1da467639baff82ee77d087135f2"
+    },
+    {
+      "originalPath": "UnityProject/Geometry space race/Verification/M5/patch-051/editmode.json",
+      "sha256": "36dbc8df4075118115eafcbafc2774eb3b6bc4546ec91c6e98a49d100d5bdfd2"
+    },
+    {
+      "originalPath": "UnityProject/Geometry space race/Verification/M5/patch-051/playmode.json",
+      "sha256": "2ef2c60ebed5bd41d1a0464296af6dc7aaa76cd8b584cef049fa024b82c2bd08"
+    },
+    {
+      "originalPath": "UnityProject/Geometry space race/Verification/M5/patch-051/camera-recheck.json",
+      "sha256": "9e7921e4baac8899b60ef3caec8c2dcdddd43f473b045fc71aefebb25b141861"
+    },
+    {
+      "originalPath": "UnityProject/Geometry space race/Verification/M5/patch-051/windows-build.json",
+      "sha256": "e7c486c50bc23e3aaae7959e53768526e8ca37c51999f0c6600f23138c6a4f6f"
+    },
+    {
+      "originalPath": "UnityProject/Geometry space race/Verification/M5/patch-051/windows-smoke-retry/standalone-results.json",
+      "sha256": "8184be3dcfa1793f88a5fae36dba2989371473d3d65f36013fb2db3d9707141a"
+    },
+    {
+      "originalPath": "UnityProject/Geometry space race/Verification/M5/patch-051/android-package-check.json",
+      "sha256": "2f34f6eb4958af107d5e5943217f7021cf75193886b43d7a81fb96ebba2f3f96"
+    }
+  ]
+}
